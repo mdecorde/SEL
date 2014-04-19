@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fr.nicohnit.sel.Accueil$PlaceholderFragment" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="SuperEasyLearner"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_numero"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Trouver \nle numéro" />
+
+                <Button
+                    android:id="@+id/button_nom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Trouver \nle nom" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_prefecture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Trouver \nla prefecture" />
+
+                <Button
+                    android:id="@+id/button_carte"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Trouver \nsur la carte" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_region"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Trouver \nla région" />
+
+                <Button
+                    android:id="@+id/button_chercher"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Rechercher" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
